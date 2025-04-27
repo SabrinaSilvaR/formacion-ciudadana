@@ -1,1 +1,52 @@
 /* definir estilos del proyecto */
+
+.logo { /* definir clase para modificar solo esa etiqueta */
+    width: 150px; /* ancho de la imagen */
+    height: auto;
+    float: right; /* alto auto de acuerdo a la proporción*/
+}
+
+#ayuda-economica { /* id para modificar solo esa etiqueta */
+    height: 400px;
+}
+
+.busqueda { /* clase para modificar solo esa etiqueta */
+    width: auto; /* ancho de la imagen */
+    height: auto; /* alto auto de acuerdo a la proporción*/
+}
+#link1{
+    margin-left: 300px; /* margen izquierdo de 300px */
+}
+#link-organizacion-economica:hover{
+    text-decoration: underline;
+}
+
+#link-gestion-tiempo:hover{
+    text-decoration: underline;
+}
+#link-actividades-recreativas:hover{
+    text-decoration: underline;/* subrayar al pasar el mouse */
+}
+.btn-contacto{
+background-color: #e3454a;
+    /* tu color azul personalizado */
+    color: white; /* color del texto */
+    border: none; /* sin borde */
+    border-radius: 8px;
+    /* redondear bordes */
+    padding: 5px 10px;  /* espacio interno 10px de espacio arriba y abajo, 20px de espacio a los lados*/
+    font-size: 19px; /* tamaño de la fuente */
+    font-weight: 500; /* negrita */
+    font-family: Arial, Helvetica, sans-serif;
+}	
+
+.btn-contacto:hover{
+        /* Fondo coloreado al pasar el mouse */
+        color: #1311118a;
+}
+.btn-contacto:active{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra leve */
+    transform: scale(0.98);
+    /* Botón se "hunde" */
+}
