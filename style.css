@@ -74,3 +74,52 @@
     transform: scale(0.98);
     /* Botón se "hunde" */
 }
+
+/* Ajustar tamaño del logo */
+.logo {
+    max-height: 40px;
+    margin-right: 15px;
+}
+
+/* Espacio debajo del navbar si es fijo */
+body {
+    padding-top: 70px;
+    /* Ajusta según la altura de tu navbar si usas fixed-top */
+    /* Si NO usas navbar fijo, puedes quitar este padding-top */
+}
+
+/* Ajustar imágenes del carrusel */
+.carousel-item img {
+    max-height: 450px;
+    /* Altura máxima para el carrusel */
+    object-fit: cover;
+    /* Evita distorsión */
+    width: 100%;
+}
+
+/* Mejorar legibilidad de los captions del carrusel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fondo oscuro semitransparente */
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    /* Asegurar texto blanco */
+}
+
+/* Estilo para las imágenes dentro de los artículos */
+article img.img-fluid {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    /* Asegura que no se desborde */
+    height: auto;
+}
+
+/* Añadir espacio superior a las secciones para compensar el navbar fijo si usas scroll */
+section[id] {
+    padding-top: 80px;
+    /* Ajusta este valor igual o mayor que el padding-top del body */
+    margin-top: -70px;
+    /* Ajusta este valor negativo (usualmente igual al padding-top del body) */
+}
