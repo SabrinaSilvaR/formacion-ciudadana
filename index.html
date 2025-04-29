@@ -1,16 +1,262 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Formacion ciudadana </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Apoyo al Estudiante Trabajador - Formación Ciudadana</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+  <style>
+
+  </style>
+
 </head>
-<body>
-    <button type="button" class="btn btn-primary">Primary</button>
-    <h1>probando html y comprobando bootstrap</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-    <script src="index.js"></script>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="80">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#inicio"> <img src="images/INACAP-Logo-Vector.svg-.png" class="logo"
+          alt="Logo INACAP">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="link-organizacion-economica" href="#organizacion-economica">Organización
+              Económica</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="link-gestion-tiempo" href="#gestion-tiempo">Gestión del tiempo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="link-actividades-recreativas" href="#actividades-recreativas">Actividades
+              recreativas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="link-redes-de-apoyo" href="#redes-apoyo">Redes de apoyo</a>
+          </li>
+        </ul>
+        <button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal"
+          data-bs-target="#aboutModal">
+          Sobre nosotros
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section id="inicio">
+    <div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="images/ahorro-rankia.jpeg" class="d-block w-100" alt="Concepto de ahorro y organización financiera">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Te orientamos a organizar tus finanzas</h5>
+            <p>Consejos prácticos para manejar tu presupuesto como estudiante trabajador.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="images/gestion-tiempo.jpg" class="d-block w-100"
+            alt="Persona organizando su tiempo con agenda y reloj">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Optimiza tu Tiempo</h5>
+            <p>Estrategias para equilibrar estudios, trabajo y descanso.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="images/recreacion.jpg" class="d-block w-100" alt="Grupo de estudiantes relajándose al aire libre">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>¡No todo es trabajo y estudio!</h5>
+            <p>Ideas para encontrar tiempo para el ocio y la recreación.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="images/red-apoyo.jpg" class="d-block w-100" alt="Manos uniéndose en señal de apoyo">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>No estás solo/a</h5>
+            <p>Encuentra y conecta con redes de apoyo universitarias y externas.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container text-center mt-4 mb-5">
+      <h1>Bienvenido/a al portal de apoyo para Estudiantes Trabajadores</h1>
+      <p class="lead">Sabemos que combinar estudios y trabajo es un desafío. Aquí encontrarás recursos y consejos
+        para facilitar tu camino.</p>
+    </div>
+  </section>
+
+  <main class="container mt-4">
+    <section id="organizacion-economica" class="mb-5">
+      <h2 class="text-center mb-4">Organización Económica para Estudiantes</h2>
+
+      <article class="mb-5">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <h3>1. La Importancia de un Presupuesto</h3>
+            <p>Llevar un registro de tus ingresos y gastos es el primer paso para tomar el control de tus
+              finanzas. No tiene por qué ser complicado. Empieza anotando tus ingresos fijos (sueldo,
+              ayudas) y tus gastos esenciales (arriendo/vivienda, transporte, alimentación, matrícula).
+            </p>
+            <p>Luego, identifica los gastos variables (ocio, ropa, salidas) y busca áreas donde podrías
+              reducir si es necesario. Usa una app, una hoja de cálculo o incluso una libreta.</p>
+            <a href="#" class="btn btn-info">Descargar plantilla de presupuesto (Ejemplo)</a>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="images/presupuesto-grafico.png" class="img-fluid rounded" alt="Gráfico simple de presupuesto">
+          </div>
+        </div>
+      </article>
+
+      <hr class="my-4">
+
+      <article class="mb-5">
+        <div class="row">
+          <div class="col-12">
+            <h3>2. Estrategias de Ahorro Inteligentes</h3>
+            <p>Ahorrar puede parecer difícil, pero pequeñas acciones suman. Considera:</p>
+            <ul>
+              <li><strong>Preparar comida en casa (Meal Prep):</strong> Reduce gastos en comer fuera.</li>
+              <li><strong>Transporte:</strong> Usa bicicleta, transporte público (aprovecha tarifas
+                estudiante) o comparte viajes.</li>
+              <li><strong>Descuentos Estudiantiles:</strong> ¡Siempre pregunta! En software, transporte,
+                entradas, etc.</li>
+              <li><strong>Compras de Segunda Mano:</strong> Para libros, ropa u otros artículos.</li>
+              <li><strong>Define Metas de Ahorro:</strong> Tener un objetivo (ej. fondo de emergencia,
+                pago de deuda) motiva.</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="mb-5">
+        <h3>3. Explora Becas y Ayudas Compatibles</h3>
+        <p>Investiga activamente las becas y ayudas financieras disponibles, tanto internas de INACAP como
+          externas (gubernamentales, fundaciones). Algunas son compatibles con estar trabajando.</p>
+        <ul>
+          <li>Consulta el sitio web de Asuntos Estudiantiles de INACAP.</li>
+          <li>Busca en portales de becas nacionales.</li>
+          <li>Pregunta en tu lugar de trabajo si ofrecen algún tipo de apoyo para estudios.</li>
+        </ul>
+      </article>
+
+    </section>
+    <section id="gestion-tiempo" class="mb-5">
+      <h2 class="text-center mb-4">Gestión del Tiempo</h2>
+      <p class="text-center lead">Aquí añadirás el contenido sobre técnicas de planificación, priorización,
+        herramientas...</p>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Técnica Pomodoro</h5>
+              <p class="card-text">Trabaja en bloques concentrados...</p>
+              <a href="#" class="btn btn-sm btn-outline-secondary">Detalles</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Matriz de Eisenhower</h5>
+              <p class="card-text">Prioriza tus tareas eficazmente...</p>
+              <a href="#" class="btn btn-sm btn-outline-secondary">Cómo usarla</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="actividades-recreativas" class="mb-5">
+      <h2 class="text-center mb-4">Actividades Recreativas</h2>
+      <p class="text-center lead">Importancia del descanso, ideas para desconectar, actividades de bajo costo...
+      </p>
+      <div class="alert alert-info" role="alert">
+        ¡Recuerda que el descanso es tan importante como el estudio y el trabajo! Busca actividades que
+        disfrutes.
+      </div>
+    </section>
+    <section id="redes-apoyo" class="mb-5">
+      <h2 class="text-center mb-4">Redes de Apoyo</h2>
+      <p class="text-center lead">Información sobre servicios universitarios, grupos de estudiantes, salud
+        mental...</p>
+      <ul class="list-group">
+        <li class="list-group-item">Servicio de Apoyo Psicológico INACAP - [Link o info]</li>
+        <li class="list-group-item">Programa de Tutorías - [Link o info]</li>
+        <li class="list-group-item">Grupos Estudiantiles Relevantes - [Link o info]</li>
+        <li class="list-group-item">Contacto Asuntos Estudiantiles - [Link o info]</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white mt-5 py-4">
+    <div class="container text-center">
+      <p class="mb-1">&copy; 2025 [Tu Nombre/Equipo]. Proyecto de Formación Ciudadana - INACAP Sede [Tu Sede].</p>
+      <p class="mb-0"><a href="#inicio" class="text-white">Volver arriba</a></p>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="aboutModalLabel">Sobre Nosotros</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Somos [Tu nombre/Nombre del equipo], estudiantes de [Tu carrera] en INACAP [Tu Sede]. Creamos
+            este espacio como parte de nuestro proyecto de Formación Ciudadana, con el objetivo de brindar
+            apoyo y recursos a nuestros compañeros que compatibilizan estudios y trabajo.</p>
+          <p>Este es un proyecto académico sin fines de lucro.</p>
+          <p>Fecha Actual: Sunday, April 27, 2025</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+
+  <script>
+    // Inicializa ScrollSpy en el body, apuntando a la barra de navegación
+    // y con un offset para compensar la altura de la navbar fija
+    // const scrollSpy = new bootstrap.ScrollSpy(document.body, {
+    //   target: '#navbarNav',
+    //   offset: 80 // Ajusta este valor para que coincida con el padding-top de las secciones
+    // });
+    // Nota: Para que Scrollspy funcione bien, usualmente los links en la navbar deben coincidir EXACTAMENTE
+    // con los IDs de las secciones, y las secciones deben tener suficiente contenido para poder 'scrollear' hasta ellas.
+    // Bootstrap 5.3 a veces tiene mejoras y puede funcionar sin inicializarlo explícitamente si usas los atributos data-* en el body. Prueba cómo se comporta.
+  </script>
+
 </body>
+
 </html>
