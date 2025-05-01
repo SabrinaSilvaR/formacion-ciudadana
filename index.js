@@ -1,3 +1,5 @@
+
+// Esta función realiza la descarga del archivo excel.
 function downloadExcel() {
 	const a = document.createElement('a');
 	a.href = './archivos/Presupuesto Formación ciudadana.xlsx';

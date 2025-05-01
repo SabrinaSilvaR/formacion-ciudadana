@@ -1,5 +1,6 @@
 /* definir estilos del proyecto */
 
+
 .logo {
     /* definir clase para modificar solo esa etiqueta */
     width: 150px;
@@ -125,7 +126,7 @@ section[id] {
 }
 
 .accordion {
-    margin-top: 20px;
+    margin-top: 0px;
     max-width: 600px;
     /* Ajusta el ancho según tu preferencia */
     margin: 0;
@@ -181,8 +182,23 @@ section[id] {
 }
 
 article {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     /* Ajusta el valor según la distancia que desees */
+
+    background-color: #f8f9fa;
+    /* fondo gris muy claro */
+    color: #212529;
+    /* texto oscuro */
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    margin-bottom: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+article:hover {
+    background-color: #e9ecef;
+    /* tono más oscuro al pasar el mouse */
 }
 
 h4 {
@@ -196,6 +212,16 @@ h4 {
     border: 1px solid #dee2e6;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
+    /* Añade espacio debajo del h4 */
 
+
+}
+
+.text-center {
+    text-align: center;
+    /* Centrar texto */
+    margin-top: 20px;
+    /* Añade espacio arriba del texto */
 
 }
