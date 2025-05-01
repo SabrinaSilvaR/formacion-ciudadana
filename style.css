@@ -1,125 +1,149 @@
 /* definir estilos del proyecto */
 
 .logo {
-    /* definir clase para modificar solo esa etiqueta */
-    width: 150px;
-    /* ancho de la imagen */
-    height: auto;
-    float: right;
-    /* alto auto de acuerdo a la proporción*/
+	/* definir clase para modificar solo esa etiqueta */
+	width: 150px;
+	/* ancho de la imagen */
+	height: auto;
+	float: right;
+	/* alto auto de acuerdo a la proporción*/
 }
 
 #ayuda-economica {
-    /* id para modificar solo esa etiqueta */
-    height: 400px;
+	/* id para modificar solo esa etiqueta */
+	height: 400px;
 }
 
 .busqueda {
-    /* clase para modificar solo esa etiqueta */
-    width: auto;
-    /* ancho de la imagen */
-    height: auto;
-    /* alto auto de acuerdo a la proporción*/
+	/* clase para modificar solo esa etiqueta */
+	width: auto;
+	/* ancho de la imagen */
+	height: auto;
+	/* alto auto de acuerdo a la proporción*/
 }
 
 #link1 {
-    margin-left: 300px;
-    /* margen izquierdo de 300px */
+	margin-left: 300px;
+	/* margen izquierdo de 300px */
 }
 
 #link-organizacion-economica:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 #link-gestion-tiempo:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 #link-actividades-recreativas:hover {
-    text-decoration: underline;
-    /* subrayar al pasar el mouse */
+	text-decoration: underline;
+	/* subrayar al pasar el mouse */
 }
 
 #link-redes-de-apoyo:hover {
-    text-decoration: underline;
-    /* subrayar al pasar el mouse */
+	text-decoration: underline;
+	/* subrayar al pasar el mouse */
 }
 
 .btn-contacto {
-    background-color: #e3454a;
-    /* tu color azul personalizado */
-    color: white;
-    /* color del texto */
-    border: none;
-    /* sin borde */
-    border-radius: 8px;
-    /* redondear bordes */
-    padding: 5px 10px;
-    /* espacio interno 10px de espacio arriba y abajo, 20px de espacio a los lados*/
-    font-size: 19px;
-    /* tamaño de la fuente */
-    font-weight: 500;
-    /* negrita */
-    font-family: Arial, Helvetica, sans-serif;
+	background-color: #e3454a;
+	/* tu color azul personalizado */
+	color: white;
+	/* color del texto */
+	border: none;
+	/* sin borde */
+	border-radius: 8px;
+	/* redondear bordes */
+	padding: 5px 10px;
+	/* espacio interno 10px de espacio arriba y abajo, 20px de espacio a los lados*/
+	font-size: 19px;
+	/* tamaño de la fuente */
+	font-weight: 500;
+	/* negrita */
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn-contacto:hover {
-    /* Fondo coloreado al pasar el mouse */
-    color: #1311118a;
+	/* Fondo coloreado al pasar el mouse */
+	color: #1311118a;
 }
 
 .btn-contacto:active {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Sombra leve */
-    transform: scale(0.98);
-    /* Botón se "hunde" */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	/* Sombra leve */
+	transform: scale(0.98);
+	/* Botón se "hunde" */
 }
 
 /* Ajustar tamaño del logo */
 .logo {
-    max-height: 40px;
-    margin-right: 15px;
+	max-height: 40px;
+	margin-right: 15px;
 }
 
 /* Espacio debajo del navbar si es fijo */
 body {
-    padding-top: 70px;
-    /* Ajusta según la altura de tu navbar si usas fixed-top */
-    /* Si NO usas navbar fijo, puedes quitar este padding-top */
+	padding-top: 70px;
+	/* Ajusta según la altura de tu navbar si usas fixed-top */
+	/* Si NO usas navbar fijo, puedes quitar este padding-top */
 }
 
 /* Ajustar imágenes del carrusel */
 .carousel-item img {
-    max-height: 450px;
-    /* Altura máxima para el carrusel */
-    object-fit: cover;
-    /* Evita distorsión */
-    width: 100%;
+	max-height: 450px;
+	/* Altura máxima para el carrusel */
+	object-fit: cover;
+	/* Evita distorsión */
+	width: 100%;
 }
 
 /* Mejorar legibilidad de los captions del carrusel */
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-    /* Fondo oscuro semitransparente */
-    padding: 1rem;
-    border-radius: 0.5rem;
-    color: white;
-    /* Asegurar texto blanco */
+	background-color: rgba(0, 0, 0, 0.5);
+	/* Fondo oscuro semitransparente */
+	padding: 1rem;
+	border-radius: 0.5rem;
+	color: white;
+	/* Asegurar texto blanco */
 }
 
 /* Estilo para las imágenes dentro de los artículos */
 article img.img-fluid {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    max-width: 100%;
-    /* Asegura que no se desborde */
-    height: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	max-width: 100%;
+	/* Asegura que no se desborde */
+	height: auto;
 }
 
 /* Añadir espacio superior a las secciones para compensar el navbar fijo si usas scroll */
 section[id] {
-    padding-top: 80px;
-    /* Ajusta este valor igual o mayor que el padding-top del body */
-    margin-top: -70px;
-    /* Ajusta este valor negativo (usualmente igual al padding-top del body) */
+	padding-top: 80px;
+	/* Ajusta este valor igual o mayor que el padding-top del body */
+	margin-top: -70px;
+	/* Ajusta este valor negativo (usualmente igual al padding-top del body) */
+}
+
+summary {
+	color: rgb(5, 81, 96);
+	cursor: pointer;
+	font-size: 1.1em;
+	padding: 0.5em;
+	background-color: rgb(207, 244, 252);
+	border: 0.5px solid rgb(158, 234, 249);
+	border-radius: 4px;
+}
+
+details[open] summary {
+	background-color: rgb(5, 81, 96);
+	border: 2px solid rgb(158, 234, 249);
+	color: aliceblue;
+}
+
+details p,
+details ol {
+	padding: 0.5em 1em;
+	margin: 0;
+	color: rgb(5, 81, 96); /* más oscuro */
+	text-align: left; /* centrar texto */
 }

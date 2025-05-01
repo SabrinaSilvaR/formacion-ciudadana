@@ -6,3 +6,20 @@ function downloadExcel() {
 	document.body.removeChild(a);
 
 }
+
+const questions = document.querySelectorAll('.faq-question');
+
+questions.forEach(button => {
+	button.addEventListener('click', () => {
+		const answer = button.nextElementSibling;
+		const isOpen = answer.style.display === 'block';
+
+		// Cierra todos
+		document.querySelectorAll('.faq-answer').forEach(a => a.style.display = 'none');
+
+		// Abre solo el actual si estaba cerrado
+		if (!isOpen) {
+			answer.style.display = 'block';
+		}
+	});
+});
