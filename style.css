@@ -181,7 +181,7 @@ section[id] {
     /* Sombra para dar efecto de caja */
 }
 
-article {
+.acordiones-mb-5 {
     margin-bottom: 50px;
     /* Ajusta el valor según la distancia que desees */
 
@@ -201,9 +201,9 @@ article:hover {
     /* tono más oscuro al pasar el mouse */
 }
 
-h4 {
+.economia-mb-5 {
 
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     /* Tamaño de fuente */
     color: #333;
     /* Color del texto */
@@ -214,8 +214,7 @@ h4 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-top: 60px;
     /* Añade espacio debajo del h4 */
-
-
+    margin-bottom: 40px;
 }
 
 .text-center {
@@ -224,4 +223,16 @@ h4 {
     margin-top: 20px;
     /* Añade espacio arriba del texto */
 
+}
+
+.redesApoyo {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
