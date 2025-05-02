@@ -329,10 +329,6 @@ details ol {
 	/* convierte la imagen en bloque */
 	margin: 0 auto;
 	/* centra horizontalmente */
-    padding-top: 80px;
-    /* Ajusta este valor igual o mayor que el padding-top del body */
-    margin-top: -	70px;
-    /* Ajusta este valor negativo (usualmente igual al padding-top del body) */
 }
 
 .accordion {
