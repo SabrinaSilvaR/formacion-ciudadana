@@ -119,7 +119,6 @@ article img.img-fluid {
 
 /* Añadir espacio superior a las secciones para compensar el navbar fijo si usas scroll */
 section[id] {
- release/1.0.0
 	padding-top: 80px;
 	/* Ajusta este valor igual o mayor que el padding-top del body */
 	margin-top: -70px;
@@ -330,10 +329,9 @@ details ol {
 	/* convierte la imagen en bloque */
 	margin: 0 auto;
 	/* centra horizontalmente */
-=======
     padding-top: 80px;
     /* Ajusta este valor igual o mayor que el padding-top del body */
-    margin-top: -70px;
+    margin-top: -	70px;
     /* Ajusta este valor negativo (usualmente igual al padding-top del body) */
 }
 
@@ -447,5 +445,4 @@ article:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-branch-popi-pruebas
 }
