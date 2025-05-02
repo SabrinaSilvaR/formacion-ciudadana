@@ -159,7 +159,7 @@ details ol {
 }
 
 .section-title {
-	font-size: 2rem;
+	font-size: 35px;
 	color: rgb(5, 81, 96);
 	margin-bottom: 1.5rem;
 	text-align: center;
@@ -242,12 +242,12 @@ details ol {
 }
 .img-container {
 	display: flex;
-	gap: 10px;
+	gap: 30px;
 	/* espacio entre las imágenes */
 }
 
 .img-container img {
-	width: 50%;
+	width: 45%;
 	/* ajusta según el tamaño que quieras */
 	height: auto;
 }
@@ -328,4 +328,23 @@ details ol {
 	/* convierte la imagen en bloque */
 	margin: 0 auto;
 	/* centra horizontalmente */
+}
+#img-recreacion {
+	display: block;
+	/* convierte la imagen en bloque */
+	margin: 0 auto;
+	/* centra horizontalmente */
+	width: 65%;
+	/* mantiene el tamaño que ya definiste */
+}
+
+#titulos{
+	text-align: center;
+	/* centrar texto */
+	font-size: 35px;
+	/* tamaño de fuente */
+	color: rgb(5, 81, 96);
+	/* color del texto */
+	margin-bottom: 1rem;
+	/* margen inferior */
 }
