@@ -123,6 +123,7 @@ section[id] {
 	margin-top: -70px;
 	/* Ajusta este valor negativo (usualmente igual al padding-top del body) */
 }
+/* Estilo para los detalles de las seccion gestion del tiempo */
 
 summary {
 	color: rgb(5, 81, 96);
@@ -146,4 +147,185 @@ details ol {
 	margin: 0;
 	color: rgb(5, 81, 96); /* más oscuro */
 	text-align: left; /* centrar texto */
+	font-size: 18.5px;
+	font-family:  sans-serif;
+}
+.habits-section {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2rem;
+	font-family: sans-serif;
+	border-radius: 10px;
+}
+
+.section-title {
+	font-size: 2rem;
+	color: rgb(5, 81, 96);
+	margin-bottom: 1.5rem;
+	text-align: center;
+	/* quitamos text-align: center */
+}
+
+.habit-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.habit-list li {
+	margin-bottom: 1.5rem;
+	padding: 1rem;
+	background: #ffffff;
+	border: 1px solid rgb(5, 81, 96);
+	border-radius: 6px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+	transition: background 0.3s ease;
+}
+
+.habit-list li:hover {
+	background: rgb(218, 241, 246);
+}
+
+.habit-list h4 {
+	margin: 0 0 0.5rem;
+	font-size: 1.1rem;
+	color: rgb(5, 81, 96);
+}
+
+.habit-list p {
+	margin: 0;
+	color: #333;
+}
+.habits-section {
+	max-width: none;
+	width: 100%;
+	margin: 0;
+}
+#size-icons{
+		width: 30px;
+		/* puedes ajustar a 30px, 50px, etc. */
+		height: auto;
+		/* mantiene la proporción */
+		margin-right: 5px;
+		/* separa del texto */
+		vertical-align: middle;
+		/* lo alinea mejor con el texto */
+}
+#text-h4{
+	font-size: 1.5rem;
+		color: rgb(5, 81, 96);
+		margin-bottom: 1rem;
+		text-align: center;
+}
+
+#text-title-tec{
+		font-size: 1.2rem;
+		font-weight: 490;
+}
+#text-tec{
+		margin: 0;
+		font-weight: 500;
+}
+#text-init{
+		margin: 0;
+		font-weight: 410;
+		font-size: 25px;
+		color:rgb(7, 53, 63) ;
+}
+#img-gestion{
+	width: 50%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 25px;
+		/* opcional, si quieres también centrar verticalmente */
+}
+.img-container {
+	display: flex;
+	gap: 10px;
+	/* espacio entre las imágenes */
+}
+
+.img-container img {
+	width: 50%;
+	/* ajusta según el tamaño que quieras */
+	height: auto;
+}
+
+.apps-section {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.card-container {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.app-card {
+	border: 1px solid rgb(7, 53, 63);
+	border-radius: 10px;
+	padding: 20px;
+	width: 400px;
+	box-shadow: 0 2px 8px rgbargb(7, 53, 63);
+	transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.app-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 4px 12px rgb(48, 148, 171);
+}
+
+.app-card h4 {
+	margin-bottom: 10px;
+	color: rgb(7, 53, 63);
+}
+
+.app-card p {
+	font-size: 14px;
+	color: rgb(7, 53, 63);
+	margin-bottom: 15px;
+}
+
+.app-button {
+	display: inline-block;
+	padding: 8px 16px;
+	background-color: rgb(158, 234, 249);
+	color: rgb(7, 53, 63);
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 14px;
+	transition: background-color 0.3s;
+	border: 1px solid rgb(7, 53, 63);
+}
+
+.app-button:hover {
+	background-color: rgb(7, 53, 63);
+	color:white;
+	border: 1 px solid rgb(158, 234, 249);
+}
+#notion-img{
+	width: 50%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 25px;
+		/* opcional, si quieres también centrar verticalmente */
+}
+#trello-img{
+	width: 50%;
+	height: 100px;
+	text-align: center;
+		/* opcional, si quieres también centrar verticalmente */
+}
+#notion-img {
+	width: 50%;
+	height: 120px;
+	display: block;
+	/* convierte la imagen en bloque */
+	margin: 0 auto;
+	/* centra horizontalmente */
 }
