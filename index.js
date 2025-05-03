@@ -1,4 +1,4 @@
-const downloadExcel= ()=> {
+const downloadExcel = () => {
 	const a = document.createElement('a');
 	a.href = './archivos/Presupuesto Formación ciudadana.xlsx';
 	a.download = 'Presupuesto-50-30-20.xlsx';
@@ -24,7 +24,7 @@ questions.forEach(button => {
 	});
 });
 
-const downloadWord= ()=> {
+const downloadWord = () => {
 	const a = document.createElement('a');
 	a.href = './archivos/Matriz_Eisenhower_Explicada.docx';
 	a.download = 'Plantilla_Matriz_Eisenhower.docx';

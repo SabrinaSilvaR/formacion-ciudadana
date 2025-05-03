@@ -452,3 +452,26 @@ article:hover {
 	margin-bottom: 20px;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.card-img-top {
+	width: 120px;
+	height: 400px;
+	object-fit: cover;
+	/* recorta para encajar sin deformar */
+	border-radius: 50%;
+	/* forma circular */
+	margin: 1rem auto 0 auto;
+	/* centrado */
+	display: block;
+}
+
+.card-text {
+	text-align: center;
+	/* centrar texto */
+	font-size: 1.0rem;
+	/* tamaño de la fuente */
+	color: #269ad4;
+	/* color del texto */
+	margin-top: 10px;
+	/* espacio arriba del texto */
+}
