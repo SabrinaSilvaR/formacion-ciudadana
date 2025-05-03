@@ -475,3 +475,39 @@ article:hover {
 	margin-top: 10px;
 	/* espacio arriba del texto */
 }
+
+.tutores-texxt {
+	font-size: 150%;
+	width: auto;
+	padding: 20px;
+	margin: 50px auto;
+	text-align: center;
+	font-family: sans-serif;
+	border: 3px solid #a1c4fd;
+	border-radius: 20px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	background: #fefefe;
+	color: #333;
+	transition: transform 0.3s ease, box-shadow 0.3s ease
+}
+
+.tutores-texxt:hover {
+	transform: scale(1.08);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+	/* sombra más intensa */
+}
+
+
+#discord-img {
+	width: 45%;
+	height: 150px;
+	text-align: center;
+	/* opcional, si quieres también centrar verticalmente */
+}
+
+.texto-discord {
+	font-size: 5.5rem;
+	color: #333;
+	text-align: center;
+
+}
