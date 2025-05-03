@@ -477,7 +477,7 @@ article:hover {
 }
 
 .tutores-texxt {
-	font-size: 150%;
+	font-size: 120%;
 	width: auto;
 	padding: 20px;
 	margin: 50px auto;
@@ -509,5 +509,36 @@ article:hover {
 	font-size: 5.5rem;
 	color: #333;
 	text-align: center;
+
+}
+
+.transition:hover {
+	transform: scale(1.05);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.text-centerr {
+	font-size: 25px;
+	color: rgb(7, 53, 63);
+}
+
+.dae {
+	text-align: center;
+	font-size: 1.5rem;
+	color: #333;
+	border: 1px solid #dee2e6;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dae-tittle {
+	font-size: 2rem;
+	color: rgb(7, 53, 63);
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 20px;
 
 }
