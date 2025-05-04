@@ -1,5 +1,6 @@
 /* definir estilos del proyecto */
 
+
 .logo {
 	/* definir clase para modificar solo esa etiqueta */
 	width: 150px;
@@ -123,6 +124,7 @@ section[id] {
 	margin-top: -70px;
 	/* Ajusta este valor negativo (usualmente igual al padding-top del body) */
 }
+
 /* Estilo para los detalles de las seccion gestion del tiempo */
 
 summary {
@@ -145,11 +147,14 @@ details p,
 details ol {
 	padding: 0.5em 1em;
 	margin: 0;
-	color: rgb(5, 81, 96); /* más oscuro */
-	text-align: left; /* centrar texto */
+	color: rgb(5, 81, 96);
+	/* más oscuro */
+	text-align: left;
+	/* centrar texto */
 	font-size: 18.5px;
-	font-family:  sans-serif;
+	font-family: sans-serif;
 }
+
 .habits-section {
 	max-width: 800px;
 	margin: 0 auto;
@@ -159,7 +164,7 @@ details ol {
 }
 
 .section-title {
-	font-size: 35px;
+	font-size: 2rem;
 	color: rgb(5, 81, 96);
 	margin-bottom: 1.5rem;
 	text-align: center;
@@ -195,59 +200,66 @@ details ol {
 	margin: 0;
 	color: #333;
 }
+
 .habits-section {
 	max-width: none;
 	width: 100%;
 	margin: 0;
 }
-#size-icons{
-		width: 30px;
-		/* puedes ajustar a 30px, 50px, etc. */
-		height: auto;
-		/* mantiene la proporción */
-		margin-right: 5px;
-		/* separa del texto */
-		vertical-align: middle;
-		/* lo alinea mejor con el texto */
-}
-#text-h4{
-	font-size: 1.5rem;
-		color: rgb(5, 81, 96);
-		margin-bottom: 1rem;
-		text-align: center;
+
+#size-icons {
+	width: 30px;
+	/* puedes ajustar a 30px, 50px, etc. */
+	height: auto;
+	/* mantiene la proporción */
+	margin-right: 5px;
+	/* separa del texto */
+	vertical-align: middle;
+	/* lo alinea mejor con el texto */
 }
 
-#text-title-tec{
-		font-size: 1.2rem;
-		font-weight: 490;
+#text-h4 {
+	font-size: 1.5rem;
+	color: rgb(5, 81, 96);
+	margin-bottom: 1rem;
+	text-align: center;
 }
-#text-tec{
-		margin: 0;
-		font-weight: 500;
+
+#text-title-tec {
+	font-size: 1.2rem;
+	font-weight: 490;
 }
-#text-init{
-		margin: 0;
-		font-weight: 410;
-		font-size: 25px;
-		color:rgb(7, 53, 63) ;
+
+#text-tec {
+	margin: 0;
+	font-weight: 500;
 }
-#img-gestion{
+
+#text-init {
+	margin: 0;
+	font-weight: 410;
+	font-size: 25px;
+	color: rgb(7, 53, 63);
+}
+
+#img-gestion {
 	width: 50%;
 	height: 300px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding-left: 25px;
-		/* opcional, si quieres también centrar verticalmente */
+	/* opcional, si quieres también centrar verticalmente */
 }
+
 .img-container {
 	display: flex;
-	gap: 30px;
+	gap: 10px;
 	/* espacio entre las imágenes */
 }
 
 .img-container img {
-	width: 45%;
+	width: 50%;
 	/* ajusta según el tamaño que quieras */
 	height: auto;
 }
@@ -303,24 +315,27 @@ details ol {
 
 .app-button:hover {
 	background-color: rgb(7, 53, 63);
-	color:white;
+	color: white;
 	border: 1 px solid rgb(158, 234, 249);
 }
-#notion-img{
+
+#notion-img {
 	width: 50%;
 	height: 300px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding-left: 25px;
-		/* opcional, si quieres también centrar verticalmente */
+	/* opcional, si quieres también centrar verticalmente */
 }
-#trello-img{
+
+#trello-img {
 	width: 50%;
 	height: 100px;
 	text-align: center;
-		/* opcional, si quieres también centrar verticalmente */
+	/* opcional, si quieres también centrar verticalmente */
 }
+
 #notion-img {
 	width: 50%;
 	height: 120px;
@@ -329,6 +344,119 @@ details ol {
 	margin: 0 auto;
 	/* centra horizontalmente */
 }
+
+.accordion {
+	margin-top: 0px;
+	max-width: 600px;
+	/* Ajusta el ancho según tu preferencia */
+	margin: 0;
+	/* Centra el acordeón */
+}
+
+/* Estiliza los botones del acordeón */
+.accordion-button {
+	background-color: #76dbe8;
+	/* Color de fondo claro */
+	color: #212529;
+	/* Color del texto */
+	border: 1px solid #dee2e6;
+	/* Borde */
+	border-radius: 5px;
+	/* Bordes redondeados */
+}
+
+.accordion-button:not(.collapsed) {
+	background-color: #0d6efd;
+	/* Color de fondo cuando está expandido */
+	color: #fff;
+	/* Texto blanco */
+}
+
+/* Estiliza el cuerpo del acordeón */
+.accordion-body {
+	background-color: #f1f1f1;
+	/* Fondo claro */
+	border: 1px solid #dee2e6;
+	/* Borde */
+	border-radius: 5px;
+	/* Bordes redondeados */
+	padding: 15px;
+	/* Espaciado interno */
+}
+
+
+.conclusion {
+	text-align: center;
+	font-size: 8px;
+	margin-top: 12px;
+	padding: 10px;
+	/* Espaciado interno */
+	background-color: #e0eefb;
+	/* Fondo claro */
+	border: 1px solid #dee2e6;
+	/* Borde */
+	border-radius: 8px;
+	/* Bordes redondeados */
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	/* Sombra para dar efecto de caja */
+}
+
+.acordiones-mb-5 {
+	margin-bottom: 50px;
+	/* Ajusta el valor según la distancia que desees */
+
+	background-color: #f8f9fa;
+	/* fondo gris muy claro */
+	color: #212529;
+	/* texto oscuro */
+	padding: 1.5rem;
+	border-radius: 12px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+	margin-bottom: 2rem;
+	transition: all 0.3s ease-in-out;
+}
+
+article:hover {
+	background-color: #e9ecef;
+	/* tono más oscuro al pasar el mouse */
+}
+
+.economia-mb-5 {
+
+	font-size: 1.8rem;
+	/* Tamaño de fuente */
+	color: #333;
+	/* Color del texto */
+	text-align: center;
+	/* Centrar texto */
+	border: 1px solid #dee2e6;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	margin-top: 60px;
+	/* Añade espacio debajo del h4 */
+	margin-bottom: 40px;
+}
+
+.text-center {
+	text-align: center;
+	/* Centrar texto */
+	margin-top: 20px;
+	/* Añade espacio arriba del texto */
+
+}
+
+.redesApoyo {
+	text-align: center;
+	font-size: 1.5rem;
+	color: #333;
+	border: 1px solid #dee2e6;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 #img-recreacion {
 	display: block;
 	/* convierte la imagen en bloque */
@@ -338,7 +466,7 @@ details ol {
 	/* mantiene el tamaño que ya definiste */
 }
 
-#titulos{
+#titulos {
 	text-align: center;
 	/* centrar texto */
 	font-size: 35px;
@@ -347,4 +475,75 @@ details ol {
 	/* color del texto */
 	margin-bottom: 1rem;
 	/* margen inferior */
+}
+
+.habit-list-crea {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	/* Espacio entre tarjetas */
+	list-style: none;
+	padding-left: 0;
+}
+
+.habit-list-crea li {
+	flex: 1 1 calc(33.333% - 20px);
+	/* Ocupa ~33% menos el gap */
+	box-sizing: border-box;
+	background-color: #f9f9f9;
+	/* Opcional, para dar fondo */
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	margin-bottom: 1.5rem;
+	padding: 1rem;
+	background: #ffffff;
+	border: 1px solid rgb(5, 81, 96);
+	border-radius: 6px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+	transition: background 0.3s ease;
+}
+
+.habit-list-crea img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 10px 0;
+}
+
+.habit-list-crea li:hover {
+	background: rgb(218, 241, 246);
+}
+
+.habit-list-crea h4 {
+	margin: 0 0 0.5rem;
+	font-size: 1.1rem;
+	color: rgb(5, 81, 96);
+}
+
+.habit-list p {
+	margin: 0;
+	color: #333;
+}
+
+.img-apps {
+	width: 50%;
+	height: 70px;
+	display: block;
+	margin: 0 auto;
+	/* opcional, si quieres también centrar verticalmente */
+}
+
+.img-headspace {
+	width: 60%;
+	height: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+.img-7M {
+	width: 40%;
+	height: 80px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 7px;
 }
